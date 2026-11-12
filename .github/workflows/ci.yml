@@ -75,7 +75,7 @@ jobs:
       #      nuevos o coverage < 80%). Eso, sumado a la branch protection,
       #      bloquea el botón Merge en el PR.
       - name: Analisis de SonarQube Cloud
-        uses: SonarSource/sonarqube-scan-action@v8.3.0
+        uses: SonarSource/sonarqube-scan-action@v8.4.1
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
